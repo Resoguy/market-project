@@ -1,0 +1,32 @@
+const state = {
+  geoUrl: 'https://maps.googleapis.com/maps/api/geocode/json?&latlng=',
+  //picUrl: 'http://market.sifirdanbir.com/local/storage/app/',
+  //baseUrl: 'http://market.sifirdanbir.com/api/v1/',
+  //loginUrl: 'http://market.sifirdanbir.com/oauth/token',
+  //serUrl: 'http://market.sifirdanbir.com/api/user',
+  picUrl: 'https://www.marketsiparisim.com/admin.market/local/storage/app/',
+  baseUrl: 'https://www.marketsiparisim.com/admin.market/api/v1/',
+  loginUrl: 'https://www.marketsiparisim.com/admin.market/oauth/token',
+  userUrl: 'https://www.marketsiparisim.com/admin.market/api/user',
+  //picUrl: 'http://192.168.0.16/market/admin.market/storage/app/',
+  //baseUrl: 'http://192.168.0.16/market/admin.market/public/api/v1/',
+  //loginUrl: 'http://192.168.0.16/market/admin.market/public/oauth/token',
+  //userUrl: 'http://192.168.0.16/market/admin.market/public/api/user',
+  address: '',
+  markets: [],
+  curMarket: {},
+  //marketId: null,
+  coords: {},
+  topCategories: [],
+  subCategories: [],
+  products: [],
+  specialProducts: [],
+  pagingData: {},
+  topCategoryId: null,
+  subCategoryId: null,
+  productId: null,
+  isLoading: true,
+  // Main Vuex State...
+}
+
+export default state
